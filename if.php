@@ -12,7 +12,7 @@
 $isMale = true;
 $isTall = false;
 
-// cuando se trata de booleanos no es necesario poner el == true funciona de ambas forma cuando se trata de un booleano
+// Cuando se trata de booleanos no es necesario poner el == true funciona de ambas formas.
 
 if ($isMale== true && $isTall == true) {
 
