@@ -6,7 +6,7 @@
 <body>
 
 	<?php
-		// leccion de clases y objetos
+		// Leccion de clases y objetos:
 		
 		class Book 
 		{
@@ -24,7 +24,7 @@
 
 		}
 
-		// instaciando un objeto y como trabajar con sus 2atos sin getter ni setter ni constructores
+		// Instaciando un objeto y como trabajar con sus datos sin getter ni setter ni constructores:
 
 		/*$book = new Book();
 		$book->title = "Harry Potter";
@@ -34,7 +34,7 @@
 		
 		
 
-		//creando objetos mediante constructores
+		//Creando objetos mediante constructores:
 
 		$book2 = new Book("The lord of the rings", "Jrr Tolkien",777);
  

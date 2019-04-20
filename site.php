@@ -7,12 +7,12 @@
  
 <?php
 
-// Leccion 1 echo: puedo agregar html tags<> entre el echo para ser mostrado en la pagina
+// Leccion 1 echo este es el codigo que se usa para mostrar texto en pantalla: puedo agregar html tags<> entre el echo para ser mostrado en la pagina.
 
 echo "<h1>Prueba de h1 con php</h1>";
 
 
-//Leccion 2 variables:
+//Leccion 2 variables.
 
 $charactherName = "John";
 $charactherAge = 35;
@@ -25,8 +25,8 @@ echo "He liked the name $charactherName <br>";
 echo "But didnt like being $charactherAge <br>";
 
 
-//leccion 3 los diferentes tipo de datos para las variables:
-// php diferencia los diferentes tipos de variables por si solo
+//Leccion 3 los diferentes tipo de datos para las variables:
+// php diferencia cada uno los diferentes tipos de variables por si solo, asi que no hay necesidad de estar escribir nada mas aparte del nombre de la variable
 
 $string = "Prueba de String";
 $interger = 30;
@@ -38,25 +38,23 @@ echo "<hr>";
 
 //Leccion 4 strings:
 
-
-
-// poner todo en minuscula
+// Comando para poner todo en minuscula:
 echo strtolower($string);
 echo "<br>";
 
-//poner todo en mayuscula
+// Comando para poner todo en mayuscula:
 echo strtoupper($string);
 echo "<br>";
 
-//contar los caracteres del string
+//Comando para contar los caracteres del string:
 echo strlen($string);
 echo "<br>";
 
-// para conseguir el caracter en la posicion X
+// Para conseguir el caracter en la posicion X se usa esto:
 echo $string[0];
 echo "<br>";
 
-// tambien puedo cambiar una letra del string dependiendo de la posicion
+// Tambien puedo cambiar una letra del string dependiendo de la posicion:
 
 echo $string[0]= "R";
 echo "<br>";
@@ -64,59 +62,61 @@ echo "<br>";
 echo $string;
 echo "<br>";
 
-// para cambiar una palabra en un string
+// Para cambiar una palabra en un string:
 
 echo str_replace("Rrueba", "Pruebita", $string);
 echo "<br>";
 
-// para tomar una porcion del string, ademas de que con el segundo numero podemos definir cuanto texto vamos a mostrar
+// Para tomar una porcion del string, ademas de que con el segundo numero podemos definir cuanto texto vamos a mostrar:
  echo substr($string, 10, 2);
 echo "<br>";
 
-// leccion 5 trabajando con numeros:
+// Leccion 5 trabajando con numeros:
 echo "<hr>";
 
-//suma casi lo mismo para las otras 4 operaciones basicas
+//Suma casi lo mismo para las otras 4 operaciones basicas:
 echo 5+9;
 echo "<br>";
 
-// modulo 
+// Modulo 
 echo 10%3;
 echo "<br>";
 
-// aumentarle uno a un numero
+// Aumentarle uno a un numero
 $number = 10;
 $number++;
 
 echo $number;
 echo "<br>";
 
-// conseguir valor absoluto
+// Conseguir el valor absoluto de un numero:
 
 echo abs(-200);
 echo "<br>";
-// potenciacion
+// Potenciacion:
 
 echo  pow(2, 4);
 echo "<br>";
-//raiz cuadrada
+
+// Raiz cuadrada:
 
 echo sqrt(144);
 echo "<br>";
-// cual de los 2 valores es mayor
+
+// Cual de los 2 valores es el mayor:
 
 echo max(2,10);
 echo "<br>";
-// cual de los 2 valores es menor
+// Cual de los 2 valores es el menor:
 
 echo min(2,10);
 echo "<br>";
-// redondear al entero mas cercano
+// Redondear al entero mas cercano:
 
 echo round(3.7);
 echo "<br>";
 
-// funcion de piso que lleva hacia el proximo decimal
+// Funcion de piso que lleva hacia el proximo decimal:
 
 echo floor(3.8);
 echo "<br>";

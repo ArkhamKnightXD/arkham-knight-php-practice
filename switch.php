@@ -14,7 +14,7 @@ What's your grade: <input type="text" name ="grade">
 
 <?php 
 
-// Leccion de los switch case
+// Leccion de los switch case:
 
 $grade = $_POST["grade"];
 

@@ -7,7 +7,7 @@
 
 <?php
 
-// funciones
+// Lecion de las funciones:
 
 function sayHi($name, $age){
 
@@ -19,7 +19,7 @@ function sayHi($name, $age){
  sayHi("Karvin", 22);
  sayHi("Alex", 20);
 
- // funcion que retorna algo
+ // Funcion que retorna algo:
 
 
  function cubeNumber($number)

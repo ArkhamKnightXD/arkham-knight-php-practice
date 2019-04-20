@@ -6,7 +6,7 @@
 <body>
 
 <?php include "header.html"
-// como incluir archivos html
+// Como incluir archivos html en php, gracias a que incluiremos estos archivos el header y el footer nos apareceran directamente a la hora de trabajar en este archivo php.
 
 
   ?>

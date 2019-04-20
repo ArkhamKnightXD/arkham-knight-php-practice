@@ -7,7 +7,7 @@
 
 
 <?php  
-// incluir archivo php, ademas de crear la variables en una fila y mandarla al otro archivo tambien puedo usar las funciones y variables especificadas en el segundo archivo siempre y cuando yo haya hecho un include
+// Leccion para incluir archivo php, ademas de crear la variables en un archivo y mandarla al otro archivo tambien puedo usar las funciones y variables especificadas en el segundo archivo siempre y cuando yo haya hecho un include.
 
 $title = "First post";
 $author="karvin";

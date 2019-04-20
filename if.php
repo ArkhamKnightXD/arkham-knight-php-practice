@@ -7,12 +7,12 @@
 
 <?php
 
-// condicional if
+// Leccion de los condicionales if:
 
 $isMale = true;
 $isTall = false;
 
-// Cuando se trata de booleanos no es necesario poner el == true funciona de ambas formas.
+// Cuando se trata de booleanos no es necesario poner el == true, pues funciona de ambas formas.
 
 if ($isMale== true && $isTall == true) {
 
@@ -34,7 +34,7 @@ else {
 
 
 
-// leccion de if statements trabajando con operadores de mayor o menor tambien se puede usar el >= o <=
+// Leccion de los if statements trabajando con operadores de mayor o menor tambien se puede usar el >= o <=:
 
 function getMax($number1,$number2, $number3)
 {

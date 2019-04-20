@@ -13,10 +13,10 @@ Name: <input type="text" name ="student">
 
 	<?php 
 
-		// este tipo de arreglos se usa para guardar key values, basicamente si buscamos el valor key osea el nombre el arreglo nos devolvera el value osea la calificacion
+		// Este tipo de arreglos se usa para guardar key values, basicamente si buscamos el valor key osea el nombre el arreglo nos devolvera el value osea la calificacion.
 
 		$grades = array("Jim"=>"A+", "Pam"=>"B-","Oscar"=>"C");
-// se puede cambiar los valores tambien y usar demas funciones de los arreglos normales
+// Se puede cambiar los valores tambien y usar demas funciones de los arreglos normales.
 
 		$grades["Jim"] = "F";
 
@@ -24,7 +24,7 @@ Name: <input type="text" name ="student">
 		echo $grades["Jim"];
 
 		echo "<br>";
-		// conseguir los valores del formulario mendiante associative arrays
+		// Para conseguir los valores del formulario mendiante associative arrays:
 		echo $grades[$_POST["student"]];
 
 

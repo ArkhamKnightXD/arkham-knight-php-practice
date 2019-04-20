@@ -9,7 +9,7 @@
 <?php
 
 
-/**
+/**Leccion de los getters and setters:
  * 
  */
 class Movie
@@ -23,7 +23,7 @@ class Movie
 	{
 		$this->title = $title;
 
-		// de esta forma evitamos que se ponga un valor erroneo en el rating del constructor, pues aqui trabajamos directamente con el setter
+		// De esta forma evitamos que se ponga un valor erroneo en el rating del constructor, pues aqui trabajamos directamente con el setter.
 		$this->setRating($rating);
 	}
 
@@ -46,7 +46,7 @@ class Movie
 
 $avengers = new Movie("Avengers","PG-13");
 
-// aqui llamamos los getter and setter para su debido uso
+// Aqui llamamos los getter and setter para su debido uso:
 
 $avengers->setRating("PG-13");
 echo $avengers->getRating();

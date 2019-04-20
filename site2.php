@@ -14,11 +14,13 @@ Age:<input type="number" name="age">
 </form>
 
 <?
-// conseguir el nombre del formulario
+
+// Para conseguir los datos en php desde un formulario en html se trabaja con los nombres para obtener los datos.
+// Conseguir el nombre del formulario:
 php echo $_GET["name"]  ?>
 
  <?php
-//Conseguir la edad del formulario
+//Conseguir la edad del formulario:
   echo $_GET["age"] ?>
 
 </body>

@@ -16,6 +16,8 @@ Second number:	<input type="number" name="number2">
 </form>
 
 <?php
+
+// Creacion de calculadora con las cuatros operaciones basicas:
 	$number1 = $_POST["number1"];
 	$number2 =$_POST["number2"];
 	$operator = $_POST["operator"];

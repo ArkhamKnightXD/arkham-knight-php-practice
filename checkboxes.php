@@ -20,7 +20,7 @@ Pears: <input type="checkbox" name ="fruits[]" value="pears">
 
 <?php
 
-// trabajar con checkboxes en php los datos del checkbox se estan almacenando en el array fruits especificado en el name de los input
+// Trabajar con checkboxes en php los datos del checkbox se estan almacenando en el array fruits especificado en el name de los input
 
 $fruits= $_POST["fruits"];
 
